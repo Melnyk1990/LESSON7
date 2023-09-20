@@ -53,3 +53,17 @@ for i in range(10):
     list3.append(random.randint(-5, 6))
 print(f'A list of numbers has been created: {list3}')
 print(f'Returned list of deleted numbers: {numbers_del(list3)}')
+
+print('\t'*3, '*'*10, 'TASK 5', '*'*10, 3*'\t')
+def united(list1, list2):
+    united_list = list4 + list5
+    return united_list
+
+list4 = []
+list5 = []
+for i in range(8):
+    list4.append(random.randint(1, 12))
+    list5.append(random.randint(1, 20))
+print(f'First list of numbers: {list4}')
+print(f'Second list of numbers: {list5}')
+print(f'Concatenated list of numbers: {united(list4, list5)}')
