@@ -67,3 +67,18 @@ for i in range(8):
 print(f'First list of numbers: {list4}')
 print(f'Second list of numbers: {list5}')
 print(f'Concatenated list of numbers: {united(list4, list5)}')
+
+
+
+print('\t'*3, '*'*10, 'TASK 6', '*'*10, 3*'\t')
+def exponentiation(list, degree):
+    list_exponen = [i ** degree for i in list]
+    return list_exponen
+
+list6 = []
+for i in range(5):
+    list6.append(random.randint(1, 6))
+print(f'A list of numbers has been created: {list6}')
+degree = int(input('Enter degree: '))
+
+print(f'Returned list of numbers raised to powers: {exponentiation(list6, degree)}')
